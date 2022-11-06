@@ -1,0 +1,114 @@
+body {
+    background: #adffea;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    color:#353535;
+    line-height:1.6em;
+    font-weight:500;
+    -webkit-font-smoothing: antialiased;
+    background-size:cover;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+input,button,select,textarea{
+    font-family: 'Arimo', sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+input{
+    transition: all 500ms ease;
+}
+
+button:focus,
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: none;
+    transition: all 500ms ease;
+}
+
+div{
+    margin:0px;
+    border:none;
+    outline:none;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+}
+.idea{
+    padding: 0 0 0 0;
+    width: 400px;
+}
+p{
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Arimo', sans-serif ;
+    color: #666666;
+    transition: all 500ms ease;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    position:relative;
+    font-family: 'Arimo', sans-serif ;
+    font-weight: 400;
+    color: #222222;
+    margin: 0px;
+    transition: all 500ms ease;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0px 15px;
+}
+
+.header{
+    padding: 0px;
+}
+
+.log_reg{
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:50vh;
+    max-width: max-content;
+    margin: auto;
+}
+
+input.submit {
+    width:90px;
+    display:block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    border: #1071FF 1px solid;
+    color: #1071FF;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: .5s;
+    border-radius: 0px;
+}
+input.submit:hover {
+    top: 5px;
+    transition: .5s;
+    color: #189848;
+    border: #189848 1px solid;
+    border-radius: 10px;
+}
+input.submit:active {
+    color: #000;
+    border: #1A1A1A 1px solid;
+    transition: .07s;
+    background-color: #FFF;
+}
